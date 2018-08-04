@@ -1,0 +1,27 @@
+{
+  "name": "madnh/fpdm",
+  "description": "This script allows to merge data into a PDF form",
+  "keywords": [
+    "fpdm",
+    "pdf",
+    "fpdf"
+  ],
+  "license": "FPDF",
+  "type": "library",
+  "homepage": "https://github.com/madnh/FPDM",
+  "require": {
+    "php": ">=5.3.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "FPDM\\": "src/"
+    }
+  },
+  "minimum-stability": "dev",
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/madnh/FPDM"
+    }
+  ]
+}
